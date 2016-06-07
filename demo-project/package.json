@@ -1,0 +1,52 @@
+{
+  "name": "react-now",
+  "version": "1.0.0",
+  "description": "Quick start boilerplate for React using Babel.",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://3stacks@github.com/3stacks/react-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "starter",
+    "kit"
+  ],
+  "author": {
+    "name": "Luke Boyle"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3stacks/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/3stacks/react-boilerplate#readme",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "rimraf": "^2.5.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-tap-event-plugin": "^1.0.0"
+  },
+  "readme": "# react-asap\n\nThere are many different React starter projects, but as far as I've seen, the all seem to over-complicate the process.\nThis project starts simple and you can make it as complicated as you wish. The folder structure and the initial app render is completed for your convenience.c\n\n## Installation\n\n### Option 1\n\nrun `npm install react-now`\ncopy files from node modules into your project root\n\n### Option 2\n\nDownload the zip from the Github repo at [https://github.com/3stacks/react-boilerplate](https://github.com/3stacks/react-boilerplate)\n\n## Getting Started\n\n### Gulp Tasks\n\nrun `gulp` for the default task which builds the app to the build directory.\n\nrun `gulp watch` to watch files\n\nThat's about it.\n\nChange the build path at line 9 if you want to call the build folder dist or something like that.",
+  "readmeFilename": "readme.md",
+  "gitHead": "20f3afc093ecd0732fbd695a60d4dfaa45f9bfec",
+  "_id": "react-now@1.0.0",
+  "_shasum": "9f4c1ec9ea228e6f33e8298be4883f1f13fb7c2b",
+  "_from": "react-now@latest"
+}
