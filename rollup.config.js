@@ -1,7 +1,7 @@
 import babel from 'rollup-plugin-babel';
 export default {
     format: 'cjs',
-    entry: 'index.jsx',
+    entry: 'src/index.jsx',
     dest: 'index.js',
     plugins: [
         babel({
