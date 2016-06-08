@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "babel-runtime": "^6.9.2",
+    "omni-slider": "^1.1.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
     "react-tap-event-plugin": "^1.0.0"
