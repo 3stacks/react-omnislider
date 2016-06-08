@@ -11,7 +11,6 @@ const paths = {
 gulp.task('default', ['browserify', 'html']);
 
 gulp.task('browserify', function() {
-    process.env.NODE_ENV = 'production';
     browserify(paths.src + 'js/index.js')
         .transform(babelify.configure({
             "presets": ["react", "es2015"],
