@@ -1,5 +1,5 @@
 {
-  "name": "react-omnislider",
+  "name": "@lukeboyle/react-omnislider",
   "version": "1.0.0",
   "description": "A React component wrapper for the omni-slider from PricelineLabs",
   "main": "index.js",
