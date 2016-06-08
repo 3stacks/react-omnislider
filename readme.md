@@ -27,6 +27,10 @@ There are no required props, however, there are several you can use
 - onChange (Function | Optional) - 
 - onFinish (Function | Optional) - Callback for when the slider stops moving
 
+## options
+
+For a list of all options, see the omni-slider docs - [here](https://github.com/pricelinelabs/omni-slider)
+
 ## onStart, onChange, onFinish
 
 All of these functions return the positions of the left and right in an object.
