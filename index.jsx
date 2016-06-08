@@ -1,4 +1,5 @@
-import Slider from 'omni-slider/omni-slider'
+import React from 'react';
+import Slider from 'omni-slider';
 
 export class OmniSlider extends React.Component {
     constructor(props) {
