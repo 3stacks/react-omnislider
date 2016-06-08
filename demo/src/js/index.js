@@ -29,11 +29,22 @@ function onPropChanged(propName, newValue) {
 
 const appState = {
     data: {
-        slider1: {},
-        slider2: {},
-        slider3: {},
-        slider4: {},
-        slider5: {}
+        slider1: {
+            left: 0,
+            right: 100
+        },
+        slider2: {
+            left: '2015-08-12T12:22',
+            right: '2015-08-12T16:21'
+        },
+        slider3: {
+            left: '2014-08-01T00:00',
+            right: '2014-07-31T23:59'
+        },
+        slider4: {
+            left: 100,
+            right: 200
+        }
     }
 };
 
@@ -80,6 +91,23 @@ const Demo = function(props) {
                     overlap: true
                 }}
                 onChange={ positions => onPropChanged('slider3', positions)}
+            />
+            <p>
+                Value - with overlap, fly theme, start/end
+            </p>
+            <pre>
+                { JSON.stringify(appState.data.slider4) }
+            </pre>
+            <OmniSlider
+                options={{
+                    isDate: false,
+                    min: 0,
+                    max: 365,
+                    start: 100,
+                    end: 200,
+                    overlap: true
+                }}
+                onChange={ positions => onPropChanged('slider4', positions)}
             />
         </div>
     );
