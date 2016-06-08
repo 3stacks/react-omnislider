@@ -1,8 +1,5 @@
 const gulp = require('gulp');
-const sass = require('gulp-sass');
 const browserify = require('browserify');
-const rimraf = require('rimraf');
-const rename = require('gulp-rename');
 const source = require('vinyl-source-stream');
 const babelify = require('babelify');
 
