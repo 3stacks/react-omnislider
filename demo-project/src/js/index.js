@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import OmniSlider from '../components/index.jsx';
-import HelloWorld from '../components/hello-world.jsx';
+import OmniSlider from '../../../index.jsx';
 
 const mainElement = document.getElementById('root');
 
