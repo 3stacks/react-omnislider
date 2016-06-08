@@ -6,7 +6,8 @@
   "jsnext:main": "src/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup --config rollup.config.js"
+    "build": "rollup --config rollup.config.js",
+    "build-demo": "cd demo && gulp && cd .."
   },
   "repository": {
     "type": "git",
