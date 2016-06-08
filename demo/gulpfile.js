@@ -1,5 +1,8 @@
 const gulp = require('gulp');
+const sass = require('gulp-sass');
 const browserify = require('browserify');
+const rimraf = require('rimraf');
+const rename = require('gulp-rename');
 const source = require('vinyl-source-stream');
 const babelify = require('babelify');
 
@@ -15,7 +18,7 @@ gulp.task('browserify', function() {
     browserify(paths.src + 'js/index.js')
         .transform(babelify.configure({
             "presets": ["react", "es2015"],
-            "plugins": ["transform-react-jsx", "transform-runtime", "transform-object-rest-spread"]
+            "plugins": ["transform-react-jsx", "transform-runtime"]
         }))
         .bundle()
         .pipe(source('app.js'))

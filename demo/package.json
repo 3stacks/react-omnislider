@@ -1,0 +1,105 @@
+{
+  "_args": [
+    [
+      {
+        "name": "react-now",
+        "raw": "react-now",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/ron/Sites/react-omnislider"
+    ]
+  ],
+  "_from": "react-now@latest",
+  "_id": "react-now@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-now",
+  "_nodeVersion": "4.4.3",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/react-now-1.0.0.tgz_1462800037366_0.7089089034125209"
+  },
+  "_npmUser": {
+    "email": "luke.boyle.au@gmail.com",
+    "name": "lukeboyle"
+  },
+  "_npmVersion": "2.15.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-now",
+    "raw": "react-now",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-now/-/react-now-1.0.0.tgz",
+  "_shasum": "9f4c1ec9ea228e6f33e8298be4883f1f13fb7c2b",
+  "_shrinkwrap": null,
+  "_spec": "react-now",
+  "_where": "/Users/ron/Sites/react-omnislider",
+  "author": {
+    "name": "Luke Boyle"
+  },
+  "bugs": {
+    "url": "https://github.com/3stacks/react-boilerplate/issues"
+  },
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-tap-event-plugin": "^1.0.0"
+  },
+  "description": "Quick start boilerplate for React using Babel.",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "rimraf": "^2.5.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "9f4c1ec9ea228e6f33e8298be4883f1f13fb7c2b",
+    "tarball": "https://registry.npmjs.org/react-now/-/react-now-1.0.0.tgz"
+  },
+  "gitHead": "20f3afc093ecd0732fbd695a60d4dfaa45f9bfec",
+  "homepage": "https://github.com/3stacks/react-boilerplate#readme",
+  "keywords": [
+    "react",
+    "boilerplate",
+    "starter",
+    "kit"
+  ],
+  "license": "MIT",
+  "main": "src/js/index.js",
+  "maintainers": [
+    {
+      "email": "luke.boyle.au@gmail.com",
+      "name": "lukeboyle"
+    }
+  ],
+  "name": "react-now",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://3stacks@github.com/3stacks/react-boilerplate.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
