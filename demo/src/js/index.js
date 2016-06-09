@@ -57,7 +57,10 @@ const Demo = function(props) {
             <pre>
                 { JSON.stringify(appState.data.slider1) }
             </pre>
-            <OmniSlider options={{ isOneWay: true }} onChange={positions => onPropChanged('slider1', positions)}/>
+            <OmniSlider
+                options={{ isOneWay: true }}
+                onChange={positions => onPropChanged('slider1', positions)}
+            />
             <p>
                 A Two Way Slider with a date range
             </p>
