@@ -2,36 +2,38 @@
 
 The OmniSlider was created by PricelineLabs and it's a two way slider with a nice API.
 
-See the Github page [here](https://github.com/pricelinelabs/omni-slider)
+See the Github page - [https://github.com/pricelinelabs/omni-slider](https://github.com/pricelinelabs/omni-slider)
 
-For the React demo, see [http://3stacks.github.io/react-omnislider/](http://3stacks.github.io/react-omnislider/)
+For the React demo, see - [http://3stacks.github.io/react-omnislider/](http://3stacks.github.io/react-omnislider/)
 
 ## Installation
 
-- `npm install react-omnislider --save`
+- `npm install @3stacks/react-omnislider --save`
 
 ## Usage
 
 In your React app, import the OmniSlider component.
 
-```
+```javascript
     import OmniSlider from 'react-omnislider'
     
     <OmniSlider/>
+    
+    <OmniSlider options={{ start: 100, end: 1000, min: 10, max: 1500 }}/>
 ```
 
 There are no required props, however, there are several you can use
 
 ## Props
 
-- options
-- onStart (Function | Optional) -
-- onChange (Function | Optional) - 
-- onFinish (Function | Optional) - Callback for when the slider stops moving
+- options (Object | Required)
+- onStart (Function | Optional) - Callback for when the slider **starts moving**
+- onChange (Function | Optional) - Callback for when the slider **is moving**
+- onFinish (Function | Optional) - Callback for when the slider **stops moving**
 
 ## options
 
-For a list of all options, see the omni-slider docs - [here](https://github.com/pricelinelabs/omni-slider)
+For a list of all options, see the omni-slider docs - [https://github.com/pricelinelabs/omni-slider](https://github.com/pricelinelabs/omni-slider)
 
 ## onStart, onChange, onFinish
 
