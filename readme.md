@@ -4,6 +4,8 @@ The OmniSlider was created by PricelineLabs and it's a two way slider with a nic
 
 See the Github page [here](https://github.com/pricelinelabs/omni-slider)
 
+For the React demo, see [http://3stacks.github.io/react-omnislider/](http://3stacks.github.io/react-omnislider/)
+
 ## Installation
 
 - `npm install react-omnislider --save`
