@@ -1,3 +1,7 @@
+# 1.0.3
+
+- Fix the install namespace in readme
+
 # 1.0.2
 
 - Update documentation

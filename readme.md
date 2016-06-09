@@ -8,7 +8,7 @@ For the React demo, see - [http://3stacks.github.io/react-omnislider/](http://3s
 
 ## Installation
 
-- `npm install @3stacks/react-omnislider --save`
+- `npm install @lukeboyle/react-omnislider --save`
 
 ## Usage
 
