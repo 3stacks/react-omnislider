@@ -39,7 +39,7 @@ For a list of all options, see the omni-slider docs - [https://github.com/pricel
 
 All of these functions return the positions of the left and right in an object.
 
-```
+```javascript
     Object { left: 0, right: 80.5497 }
 ```
 
