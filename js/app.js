@@ -79,9 +79,12 @@ var Demo = function Demo(props) {
             null,
             (0, _stringify2.default)(appState.data.slider1)
         ),
-        _react2.default.createElement(_index2.default, { options: { isOneWay: true }, onChange: function onChange(positions) {
+        _react2.default.createElement(_index2.default, {
+            options: { isOneWay: true },
+            onChange: function onChange(positions) {
                 return onPropChanged('slider1', positions);
-            } }),
+            }
+        }),
         _react2.default.createElement(
             'p',
             null,
