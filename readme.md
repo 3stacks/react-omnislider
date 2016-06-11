@@ -15,11 +15,36 @@ For the React demo, see - [http://3stacks.github.io/react-omnislider/](http://3s
 In your React app, import the OmniSlider component.
 
 ```javascript
-    import OmniSlider from 'react-omnislider'
-    
-    <OmniSlider/>
-    
-    <OmniSlider options={{ start: 100, end: 1000, min: 10, max: 1500 }}/>
+  import OmniSlider from 'react-omnislider'
+  
+  <OmniSlider/>
+  
+  <OmniSlider options={{ start: 100, end: 1000, min: 10, max: 1500 }}/>
+```
+
+Or when using Redux
+
+```javascript
+  	
+  	function appReducer(state, action) {
+  	  switch(action.type) {
+  	   case('SLIDER_VALUE_CHANGED'):
+  	     console.log(action.payload.positions);
+      break;
+  	  }
+  	}
+  	
+  	const onSliderChanged = function(positions) {
+  	  store.dispatch({
+        type: 'SLIDER_VALUE_CHANGED',
+        payload: {
+          positions
+        }
+      })
+    }
+
+  <OmniSlider onChange={onSliderValueChanged} options={{ start: 100, end: 1000, min: 10, max: 1500 }}/>
+
 ```
 
 There are no required props, however, there are several you can use
@@ -40,7 +65,7 @@ For a list of all options, see the omni-slider docs - [https://github.com/pricel
 All of these functions return the positions of the left and right in an object.
 
 ```javascript
-    Object { left: 0, right: 80.5497 }
+  Object { left: 0, right: 80.5497 }
 ```
 
 ## Developing the plugin
