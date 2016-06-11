@@ -1,3 +1,7 @@
+# 1.0.4
+
+- Update docs to verify Redux support
+
 # 1.0.3
 
 - Fix the install namespace in readme
